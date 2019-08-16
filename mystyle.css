@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.qam-login-bar {
+  position: fixed;
+  height: 70px;
+  width: 100vw;
+  top: 0vh;
+  left: 0vw;
+  z-index: 2;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 1px #c9cccd;
+          box-shadow: 0px 0px 1px #c9cccd;
+  border-bottom: 1px solid #c9cccd;
+}
+
+.qam-login-bar .qam-login-group {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qam-login-bar .qam-login-group .qa-search {
+  display: none;
+}
+
+.qam-login-bar .qam-login-group .qa-nav-user {
+  float: right;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #989c9e;
+  background-color: #ecf0f1;
+}
+
+div#search {
+  position: fixed;
+  top: 0vh;
+  left: -250px;
+  margin-left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+div#search input {
+  outline: none;
+  border-style: solid;
+  width: 314px;
+  height: 38px;
+  background-color: #f3f5f9;
+  border: none;
+  color: #363838;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+div#search button {
+  cursor: pointer;
+  width: 43px;
+  height: 38px;
+  background-color: #697683;
+  border: none;
+  border-radius: 4px;
+}
+
+div#search button i {
+  color: #fafafa;
+  font-size: 14pt;
+}
+/*# sourceMappingURL=mystyle.css.map */
